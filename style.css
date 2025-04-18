@@ -1,0 +1,135 @@
+.gradient-background{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    text-align: center;
+    height: 20rem;
+}
+
+
+h1{
+    padding-top: 7.5rem;
+    font-family: "Open Sans", sans-serif;
+}
+h5{
+    font-family: "Montserrat", sans-serif;
+}
+h2{
+    margin-top: 2rem;
+}
+h3{
+    font-family: "Merriweather Sans",sans-serif;
+}
+.profile-pic{
+    border-radius: 50%;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    margin-top: 7.5rem;
+}
+.name{
+    margin-top: 0px;;
+}
+.intro{
+    text-align: center;
+    font-family: "Merriweather Sans",sans-serif;
+}
+.intro > p{
+    margin : 0px 1.3rem;
+    font-size: 0.75rem;
+}
+.info{
+    text-align: center;
+    font-family: "Merriweather Sans",sans-serif;
+    margin: 100px 0px;
+}
+
+.skill-set{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    text-align: left;
+    gap:8px;
+    font-family: "Merriweather Sans",sans-serif;
+
+}
+.para{
+    margin: 0px;
+    font-family: "Merriweather Sans",serif;
+}
+.project-1{
+    background-color:orangered;
+    border-radius: 8px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.project-2{
+    background-color:orangered;
+    border-radius: 8px;
+    text-align: center;
+}
+.project-3{
+    background-color:orangered;
+    border-radius: 8px;
+    text-align: center;
+}
+.project-4{
+    background-color:orangered;
+    border-radius: 8px;
+    text-align: center;
+}
+.work h3{
+    color:white;
+}
+.contact{
+    text-align: center;
+    font-family: "Merriweather Sans",serif;
+    color: #11cdd4;
+}
+.contact>p{
+    color: #11999e;
+}
+.body-container > p{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+.btn{
+    color:white;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.buttton { 
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.foot-background{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+    margin-top: 40px;
+}
+.bottom-container{
+    text-align: center;
+    font-family: "Merriweather", serif;
+    color:white;
+}
+.bottom-container > a{
+    margin-left: 15px;
+}
+.last{
+    margin-top: 2rem;
+}
+.body-container{
+    margin: 100px 0px;
+}
+
+@media (max-width :768px){
+    .profile-pic{
+        height : 100px;
+    }
+
+}
